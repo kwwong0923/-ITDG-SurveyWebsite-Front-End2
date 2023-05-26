@@ -20,7 +20,7 @@ export class AuthService {
 
   private authStatusListener = new Subject<boolean>();
 
-  private url = "https://itdg-back-end.herokuapp.com/api/auth";
+  private url = "https://survey-itdg-backend.herokuapp.com//api/auth";
 
   logged: boolean = false;
     token!: string;
